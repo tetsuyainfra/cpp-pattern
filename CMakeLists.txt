@@ -1,7 +1,4 @@
-﻿# CMakeList.txt : CMakeProject1 の CMake プロジェクト。ソースを含めて、次を定義します:
-# プロジェクト専用ロジックはこちらです。
-#
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
 project(cpp-pattern)
 
@@ -12,6 +9,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 
 
-add_subdirectory(11_Abstract_Factory)
+add_subdirectory(11_Builder)
+add_subdirectory(12_Factory)
+add_subdirectory(13_Abstract_Factory)
+add_subdirectory(14_Prototype)
+add_subdirectory(15_Singleton)
 
 add_subdirectory(99_template)

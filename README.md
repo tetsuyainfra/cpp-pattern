@@ -1,19 +1,21 @@
-1	GoF(Gang Of Four)‚É‚æ‚éƒfƒUƒCƒ“ƒpƒ^[ƒ“23í
-1.1	¶¬
-1.1.1 Abstract Factory
-1.1.2 Builder
-1.1.3 Factory Method
+ORIGINAL SOURCE IS HERE https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
+
+1	GoF(Gang Of Four)ã«ã‚ˆã‚‹ãƒ‡ã‚¶ã‚¤ãƒ³ãƒ‘ã‚¿ãƒ¼ãƒ³23ç¨®
+1.1	ç”Ÿæˆ
+1.1.1 Builder
+1.1.2 Factory(Method)
+1.1.3 Abstract Factory
 1.1.4 Prototype
 1.1.5 Singleton
-1.2	\‘¢
+1.2	æ§‹é€ 
 1.2.1 Adapter
 1.2.2 Bridge
 1.2.3 Composite
 1.2.4 Decorator
-1.2.5 Facade(ƒtƒ@ƒT[ƒh)
+1.2.5 Facade(ãƒ•ã‚¡ã‚µãƒ¼ãƒ‰)
 1.2.6 Flyweight
 1.2.7 Proxy
-1.3	U‚é•‘‚¢
+1.3	æŒ¯ã‚‹èˆã„
 1.3.1 Chain of responsibility
 1.3.2 Command
 1.3.3 Interpreter
@@ -25,7 +27,7 @@
 1.3.9 Strategy
 1.3.10 Template Method
 1.3.11 Visitor
-1.4	ƒ}ƒ‹ƒ`ƒXƒŒƒbƒhƒvƒƒOƒ‰ƒ€
+1.4	ãƒãƒ«ãƒã‚¹ãƒ¬ãƒƒãƒ‰ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 1.4.1 ActiveObject
 1.4.2 Balking
 1.4.3 Double checked locking
