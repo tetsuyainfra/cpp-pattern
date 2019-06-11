@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-set(PROJECT_NAME "15_Singleton_ex1_template")
+set(PROJECT_NAME "15_Singleton_ex2")
 
 project(${PROJECT_NAME})
 

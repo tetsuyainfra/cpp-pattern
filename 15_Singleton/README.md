@@ -33,3 +33,44 @@ can be an intermediary step to bring the program inline to stronger object orien
 ### main.cpp
 継承クラスでmake_uniqueしてるけどこれ結局コピーコンストラクタ呼んでいるから意味がないような
 unique_ptr<Record> clone() override { return make_unique<CarRecord>(*this); }
+
+
+### ex1_template
+テンプレートを利用したクラス
+次の記法でシングルトン化できる
+	> Config& c = singleton<Config>::get_instance();
+
+しかし、次のように"間違って"記述するとコピーコンストラクタが実行されてしまう
+	> auto c = singleton<Config>::get_instance();
+
+次なら問題ない
+	> auto& c = singleton<Config>::get_instance();
+
+
+### ex2_template
+
+コピーコンストラクタを禁止すると間違ってコピーすることはなくなるが
+設定の保存など実現をするとき困る。
+※ clone()を定義してインスタンスを作成する方法もあるが・・・
+'''
+struct Config {
+  ～～
+  // コピーコンストラクタの禁止
+  Config(const Config&) = delete;
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,13 +3,11 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-set(PROJECT_NAME "15_Singleton")
+set(PROJECT_NAME "15_Singleton_ex1")
 
 project(${PROJECT_NAME})
 
 # ソースをこのプロジェクトの実行可能ファイルに追加します。
-add_executable (${PROJECT_NAME} "main.cpp" "main.h")
+add_executable (${PROJECT_NAME} "main.cpp" "main.h" "singleton.h" "singleton.cpp")
 
-
-add_subdirectory(ex1)
-add_subdirectory(ex2)
+# TODO: テストを追加し、必要な場合は、ターゲットをインストールします。
